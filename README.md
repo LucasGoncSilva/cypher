@@ -4,11 +4,13 @@ Baseado na "Cifra de Cesar" com algumas modificacoes pessoais, este programa com
 A matematica por tras da traducao eh simples o suficiente para que seja possivel traduzir mensagens sem a necessidade de um programa, utilizando apenas a propria mente. Com base nisso, o Cypher foi desenvolvido para facilitar e acelerar a transcricao de textos longos para troca de informacoes.
 
 
+
 # Utilizacao
 
 ## Codificar e decodificar
 
 Para realizar ambas as operacoes (tanto para codificar quanto para decodificar) deve-se, apenas, inserir o texto no primeiro campo de entrada e clickar no botao que a "traducao" sera realizada automaticamente.
+
 
 
 # Cuidados e restricoes
