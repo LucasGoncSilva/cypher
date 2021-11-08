@@ -52,13 +52,6 @@ git clone git@github.com:LucasGoncSilva/cypher.git
 cd cypher
 ```
 
-Crie um ambiente virtual para instalar as dependencias do projeto e ative-o
-```cmd
-python -m venv venv_cypher
-
-venv_cypher\Scripts\activate.bat
-```
-
 Execute o arquivo `cypher.py`
 ```cmd
 python cypher.py
@@ -67,11 +60,15 @@ python cypher.py
 
 ---
 
+<br>
+
 <h3>Codificar e decodificar</h3>
 
 Para realizar ambas as operacoes (tanto para codificar quanto para decodificar) deve-se, apenas, inserir o texto no primeiro campo de entrada e clickar no botao que a "traducao" sera realizada automaticamente.
 
 ---
+
+<br>
 
 <h2> :warning: Cuidados e restricoes :warning: </h2>
 
