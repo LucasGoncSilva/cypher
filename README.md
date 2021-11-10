@@ -1,4 +1,4 @@
-<h1>Encoder :newspaper: </h1>
+<h1>Encoder :lock: </h1>
 
 <h4 align='justify'>Baseado na "Cifra de Cesar" com algumas modificacoes pessoais, este programa com interface grafica possibilita a traducao ida e volta entre um texto/mensagem normal e cifrado.
 A matematica por tras da traducao eh simples o suficiente para que seja possivel traduzir mensagens sem a necessidade de um programa, utilizando apenas a propria mente. Com base nisso, o Cypher foi desenvolvido para facilitar e acelerar a transcricao de textos longos para troca de informacoes.</h4>
