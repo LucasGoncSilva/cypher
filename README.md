@@ -1,7 +1,7 @@
 <h1>Encoder :lock: </h1>
 
-<h4 align='justify'>Baseado na "Cifra de Cesar" com algumas modificacoes pessoais, este programa com interface grafica possibilita a traducao ida e volta entre um texto/mensagem normal e cifrado.
-A matematica por tras da traducao eh simples o suficiente para que seja possivel traduzir mensagens sem a necessidade de um programa, utilizando apenas a propria mente. Com base nisso, o Cypher foi desenvolvido para facilitar e acelerar a transcricao de textos longos para troca de informacoes.</h4>
+<h4 align='justify'>Baseado na "Cifra de César" com algumas modificações pessoais, este programa com interface gráfica possibilita a tradução ida e volta entre um texto/mensagem normal e cifrado.
+A matemática por trás da tradução é simples o suficiente para que seja possivel traduzir mensagens sem a necessidade de um programa, utilizando apenas a própria mente. Com base nisso, o Cypher foi desenvolvido para facilitar e acelerar a transcrição de textos longos para troca de informações.</h4>
 
 <br>
 
@@ -30,9 +30,9 @@ A matematica por tras da traducao eh simples o suficiente para que seja possivel
 
 <br>
 
-<h2>Pre-requisitos :books: </h2>
+<h2>Pré-requisitos :books: </h2>
 
-<!-- Nenhuma ferramenta de pre-requisito necessaria. -->
+<!-- Nenhuma ferramenta de pré-requisito necessaria. -->
 
 <ul>
 <li>Git</li>
@@ -41,11 +41,11 @@ A matematica por tras da traducao eh simples o suficiente para que seja possivel
 
 <br>
 
-<h2>Utilizacao :crystal_ball: </h2>
+<h2>Utilização :crystal_ball: </h2>
 
 <h3>Iniciando</h3>
 
-Clone o repositorio e acesse a pasta criada para ele
+Clone o repositório e acesse a pasta criada para ele
 ```cmd
 git clone git@github.com:LucasGoncSilva/cypher.git
 
@@ -64,7 +64,7 @@ python cypher.py
 
 <h3>Codificar e decodificar</h3>
 
-Para realizar ambas as operacoes (tanto para codificar quanto para decodificar) deve-se, apenas, inserir o texto no primeiro campo de entrada e clickar no botao que a "traducao" sera realizada automaticamente.
+Para realizar ambas as operações (tanto para codificar quanto para decodificar) deve-se, apenas, inserir o texto no primeiro campo de entrada e clickar no botão que a "tradução" será realizada automaticamente.
 
 ---
 
@@ -72,6 +72,6 @@ Para realizar ambas as operacoes (tanto para codificar quanto para decodificar) 
 
 <h2> :warning: Cuidados e restricoes :warning: </h2>
 
-* O programa cifra apenas letras minusculas;
-* O programa nao cifra: letras maiusculas, numeros, simbolos e caracteres especiais (ainda eh possivel fazer uso dos elementos anteriormente citados apenas para embaralhar e esconder a mensagem original, contudo, tais elementos permanecerao intocados - em sua maioria);
-* Recomenda-se a escrita de nao mais que 60 caracteres para uma melhor visualizacao do que foi escrito (perfeitamente possivel a insercao de mais de 60 caracteres). 
+* O programa cifra apenas letras minúsculas;
+* O programa nao cifra: letras maiúsculas, números, símbolos e caracteres especiais (ainda é possível fazer uso dos elementos anteriormente citados apenas para embaralhar e esconder a mensagem original, contudo, tais elementos permanecerão intocados - em sua maioria);
+* Recomenda-se a escrita de não mais que 60 caracteres para uma melhor visualizacao do que foi escrito (perfeitamente possivel a inserção de mais de 60 caracteres). 
