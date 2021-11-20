@@ -43,33 +43,68 @@ def cypher():
     output_txt.set(f"{new_text}")
 
 
+main_color = '#fff'
+secundary_color = '#4717f6'
+alert_color = '#f00'
+
+
 win = Tk()
 win.title('Cypher')
+win.configure(bg=main_color)
 
 
-info = Label(win, text='INSIRA O TEXTO NA JANELA ABAIXO PARA (DES)CRIPTOGRAFAR')
+image = PhotoImage(file = 'icon.png')
+win.iconphoto(True, image)
+
+
+info = Label(
+    win,
+    text='INSIRA O TEXTO NA JANELA ABAIXO PARA (DES)CRIPTOGRAFAR',
+    bg=main_color,
+    fg=secundary_color
+)
 info.grid(column=0, row=0, padx=10, pady=5)
 
 
-rule1 = Label(win, text='*escreva sempre em minusculo')
+rule1 = Label(
+    win,
+    text='*escreva sempre em minúsculo',
+    bg=main_color,
+    fg=alert_color
+)
 rule1.grid(column=0, row=2, padx=10, pady=2)
 
 
-rule2 = Label(win, text='*quantidade max indicada de carac. = 60')
+rule2 = Label(
+    win,
+    text='*quantidade max indicada de carac. = 60',
+    bg=main_color,
+    fg=alert_color
+)
 rule2.grid(column=0, row=4, padx=10, pady=2)
 
 
-input_camp = Entry(win, width=64)
+input_camp = Entry(
+    win,
+    width=64, bg='#ddd',
+    fg=secundary_color
+)
 input_camp.grid(column=0, row=5, padx=10, pady=5)
 
 
-submit_button = Button(win, text='Converter texto', command=cypher)
+submit_button = Button(
+    win,
+    text='Converter texto',
+    command=cypher,
+    bg=secundary_color,
+    fg=main_color
+)
 submit_button.grid(column=0, row=6, padx=10, pady=5)
 
 
 output_txt = StringVar()
 
-output_camp = Entry(win, textvariable=output_txt, state="readonly", width=64)
+output_camp = Entry(win, textvariable=output_txt, state="readonly", width=64, fg=secundary_color)
 output_camp.grid(column=0, row=8, padx=10, pady=5)
 
 
