@@ -1,0 +1,22 @@
+{
+  "name": "cypher",
+  "version": "1.0.0",
+  "description": "Programa capaz de codificar e decodificar um texto utilizando uma cifra autoral.",
+  "main": "main.js",
+  "scripts": {
+    "app": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasGoncSilva/cypher.git"
+  },
+  "author": "Lucas Gonçalves da Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasGoncSilva/cypher/issues"
+  },
+  "homepage": "https://github.com/LucasGoncSilva/cypher#readme",
+  "devDependencies": {
+    "electron": "^16.0.5"
+  }
+}
