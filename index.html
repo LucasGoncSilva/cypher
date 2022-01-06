@@ -2,15 +2,42 @@
 <html lang="en">
 
 <head>
+
+    <!-- meta tags SEO -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="assets/style.css">
-    <script src="assets/script.js"></script>
+    <meta name="author" content="Lucas Gonçalves da Silva">
+    <meta name="title" content="Cypher">
+    <meta name="description"
+        content='Baseado na "Cifra de César" com algumas modificações pessoais, este programa com interface gráfica possibilita a tradução ida e volta entre um texto/mensagem normal e cifrado.'>
 
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://textcypher.vercel.app/">
+    <meta property="og:title" content="Cypher">
+    <meta property="og:description"
+        content='Baseado na "Cifra de César" com algumas modificações pessoais, este programa com interface gráfica possibilita a tradução ida e volta entre um texto/mensagem normal e cifrado.'>
+    <meta property="og:image" content="">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://textcypher.vercel.app/">
+    <meta property="twitter:title" content="Cypher">
+    <meta property="twitter:description"
+        content='Baseado na "Cifra de César" com algumas modificações pessoais, este programa com interface gráfica possibilita a tradução ida e volta entre um texto/mensagem normal e cifrado.'>
+    <meta property="twitter:image" content="">
+
+    <!-- title -->
     <title>Cypher</title>
+
+    <!-- page icon -->
+    <link rel="shortcut icon" href="assets/img/icon.svg" type="image/x-icon">
+
+    <!-- imports -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js"></script>
 
 </head>
 
@@ -19,15 +46,15 @@
     <h1>Cypher</h1>
 
     <label for="plain_txt">Texto padrão</label><br>
-    <textarea style='resize:none' name="plain_txt" id="plain_txt" cols="" rows=""></textarea><br><br><br>
+    <textarea name="plain_txt" id="plain_txt" cols="" rows=""></textarea><br><br><br>
 
 
     <label for="cypher">Texto cifrado</label><br>
-    <textarea style='resize:none' name="cyphed" id="cyphed" cols="" rows=""></textarea>
+    <textarea name="cyphed" id="cyphed" cols="" rows=""></textarea>
 
     <p>* Apenas letras minúsculas e sem acentuação serão cifradas corretamente</p>
 
-    <img src="icon.svg" alt="icon">
+    <img src="assets/img/icon.svg" alt="icon">
 
 </body>
 
